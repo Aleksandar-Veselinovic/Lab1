@@ -17,7 +17,7 @@ public class AccessingData {
         SpringApplication.run(AccessingData.class);
     }
 
-    @Bean
+    /*@Bean
     public CommandLineRunner demo(AddressBookRepository repository1, BuddyInfoRepository repository2) {
         return (args) -> {
             BuddyInfo buddy1 = new BuddyInfo("Bob", "123");
@@ -72,5 +72,5 @@ public class AccessingData {
             });
             log.info("");
         };
-    }
+    }*/
 }
