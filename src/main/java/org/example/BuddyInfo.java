@@ -10,9 +10,12 @@ public class BuddyInfo {
     private String name;
     private String phoneNumber;
 
+    private String addressBookId;
+
     public BuddyInfo(String name, String phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
+        addressBookId = "";
     }
 
     public BuddyInfo() {
@@ -33,6 +36,14 @@ public class BuddyInfo {
 
     public String getPhoneNumber() {
         return phoneNumber;
+    }
+
+    public String getAddressBookId() {
+        return addressBookId;
+    }
+
+    public void setAddressBookId(String id) {
+        addressBookId = id;
     }
 
     public void setName(String name) {

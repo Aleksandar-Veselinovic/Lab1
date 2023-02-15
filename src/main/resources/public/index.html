@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="client.js"></script>
+</head>
+
+<body>
+    <div>
+        <h3>Create AddressBook</h3>
+        <form id="create-form" name="create-form">
+            <p><input type="submit" value="Create AddressBook" /></p>
+        </form>
+    </div>
+    <div id="addressBookCreate"></div>
+    <div>
+        <h3>Add Buddy</h3>
+        <form id="add-form" name="add-form">
+            <p>AddressBook id: <input type="text" id="add-id" name="add-id"/></p>
+            <p>Buddy name: <input type="text" id="add-name" name="add-name"/></p>
+            <p>Buddy number: <input type="text" id="add-number" name="add-number"/></p>
+            <p><input type="submit" value="Submit" /></p>
+        </form>
+    </div>
+    <div id="addBuddyResult"></div>
+    <div>
+        <h3>View AddressBook</h3>
+        <form id="view-form" name="view-form">
+            <p>id: <input type="text" id="view-id" name="view-id"/></p>
+            <p><input type="submit" value="Submit" /></p>
+        </form>
+    </div>
+    <div id="addressBookView"></div>
+</body>
+</html>
